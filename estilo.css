@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(blueaesthetic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#menumenu {
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+.a {
+    width: auto;
+    height: 60px;
+}
+
+hr {
+    opacity: 20%;
+}
+
+button {
+    border-radius: 30px;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    margin: 0.5rem 2rem;
+    opacity: 88%;
+    /* transition: 1s; isso aqui mais o rotate faz alguma coisa rodas*/
+}
+
+button:hover {
+    opacity: 100%;
+    /* rotate: 360deg; */
+}
+
+#texto {
+    text-align: center;
+    color: white;
+    margin: 17vw;
+}
+
+.titulo {
+    font-size: 90px;
+    font-family: "Lobster Two", sans-serif;
+}
+
+.tex {
+    font-size: 30px;
+    font-family: "Philosopher", sans-serif;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+#aaa {
+    width: 100%;
+    height: 900px;
+    background-color: #E5EEFA;
+    padding: 4rem;
+    text-align: center;
+}
+
+#feminino {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+
+#masculino {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-titulo {
+    font-size: 40px;
+    font-family: "Lobster Two", sans-serif;
+}
+
+.dd {
+    padding: 6rem 1rem;
+}
+
+.di {
+    padding: 6rem 1rem;
+}
+
+/* --------------------------------------------------------------------------- */
+
+#bbb {
+    width: 100%;
+    height: 950px;
+    background-color: #023272;
+    padding: 4rem;
+    text-align: center;
+    color: white;
+}
+
+footer{ background-color: #E5EEFA;
+    width: 100%;
+    height: 300px;
+    color: #023272;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 2rem;
+    font-size: x-large;}
